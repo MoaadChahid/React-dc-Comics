@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     list-style: none;
+    padding: 0 15rem;
 
 
 }
@@ -9,9 +10,9 @@ header .navbar li a {
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
     display: flex;
-    margin: 25px 30px;
+    margin: 40px 20px;
     text-decoration: none;
-    color: black;
+    color: rgb(25, 25, 25);
     font-weight: bold;
 }
 
@@ -26,7 +27,8 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: right;
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-right: 90px;
     height: 100px;
     width: 100%;
 }

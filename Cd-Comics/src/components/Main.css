@@ -1,0 +1,45 @@
+main {
+    margin-top: 15px;
+}
+
+
+
+.link {
+    display: flex;
+    padding: 40px 260px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: rgb(18, 18, 18);
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.img_one {
+    margin-left: 60px;
+    width: 65px;
+    height: 70px;
+}
+
+.Background_image {
+    height: 200px;
+    background-color: rgb(14, 117, 226);
+    padding: 50px 300px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nomeone {
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-left: 15px;
+
+
+
+}
