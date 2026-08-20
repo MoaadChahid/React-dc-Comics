@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    list-style: none;
+
+
+}
+
+header .navbar li a {
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    margin: 25px 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.active {
+    color: rgba(1, 102, 210, 0.972);
+    position: relative;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+}
+
+header img {
+    margin-left: 250px;
+}
