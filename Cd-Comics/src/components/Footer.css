@@ -1,0 +1,40 @@
+.BarraFooter {
+    background-color: rgb(45, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    padding: 12px 25px;
+    margin: 40px 350px;
+    background-color: rgb(45, 44, 44);
+    border: 2px solid rgb(35, 66, 222);
+    cursor: pointer;
+
+
+}
+
+
+.titleFooter {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(24, 89, 194);
+    margin: 0px 100px;
+    font-size: 15px;
+
+}
+
+.smallImage {
+    margin-left: 15px;
+
+}
+
+.FooterMargin {
+
+    margin-left: 10px;
+}

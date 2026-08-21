@@ -17,7 +17,7 @@ main {
 
 }
 
-.img_one {
+.img {
     margin-left: 60px;
     width: 65px;
     height: 70px;
@@ -42,4 +42,57 @@ main {
 
 
 
+
+}
+
+
+.List {
+    font-family: "Open Sans", sans-serif;
+    margin-left: 70px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+
+
+
+
+}
+
+.Contenitori {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 20px 300px;
+    background-image: url('../assets/footer-bg.jpg');
+}
+
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.title-inline {
+
+    display: flex;
+
+}
+
+
+.Caratteri {
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    opacity: 0.7;
+
+
+}
+
+.Bgimage {
+    position: absolute;
+    margin-left: 100px;
+    width: auto;
+    height: 250px;
 }
