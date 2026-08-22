@@ -9,28 +9,42 @@ const Logo = () => (
     <img className='Image' src={dcLogo} alt="Logo DC-Comics" />
 )
 
+const NavBar = [
 
+    { id: 1, href: "#", contenuto: "CHARACTERS", active: false, },
+    { id: 2, href: "#", contenuto: "COMICS", active: true, },
+    { id: 3, href: "#", contenuto: "MOVIES", active: false, },
+    { id: 4, href: "#", contenuto: "TV ", active: false, },
+    { id: 5, href: "#", contenuto: "GAMES", active: false, },
+    { id: 6, href: "#", contenuto: "COLLECTIBLES", active: false, },
+    { id: 7, href: "#", contenuto: "VIDEOS", active: false, },
+    { id: 8, href: "#", contenuto: "FANS", active: false, },
+    { id: 9, href: "#", contenuto: "NEWS", active: false, },
+    { id: 10, href: "#", contenuto: "SHOP", active: false, },
+
+]
 
 
 
 ///////NAVABAR///////
 const Nav = () => (
 
+    (
 
-    <ul className='navbar'>
-        <li><a href="#">CHARACTERS</a></li>
-        <li><a href="#" className="active">COMICS</a></li>
-        <li><a href="#">MOVIES</a></li>
-        <li><a href="#">TV</a></li>
-        <li><a href="#">GAMES</a></li>
-        <li><a href="#">COLLECTIBLES</a></li>
-        <li><a href="#">VIDEOS</a></li>
-        <li><a href="#">FANS</a></li>
-        <li><a href="#">NEWS</a></li>
-        <li><a href="#">SHOP</a></li>
+        <section >
+            <ul className='navbar'>
+                {NavBar.map(link => (
+                    <li key={link.id} className={link.active ? "active" : " "}>
 
+                        <a href={link.href}>{link.contenuto}</a>
 
-    </ul>
+                    </li>
+                ))}
+            </ul>
+        </section>
+
+    )
+
 );
 
 
